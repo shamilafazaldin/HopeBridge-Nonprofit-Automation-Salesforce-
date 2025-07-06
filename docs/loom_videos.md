@@ -1,0 +1,48 @@
+# Loom Video Walkthroughs – HopeBridge CRM
+
+This document tracks all Loom walkthroughs for the HopeBridge nonprofit CRM build.
+
+Each video supports a major step in the project and is designed to showcase functionality for clients or freelance portfolios.
+
+---
+
+## 1. Developer Org Setup
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Walkthrough of creating the Salesforce Developer Org and accessing the Lightning UI.
+
+---
+
+## 2. NPSP Installation
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Installing the Nonprofit Success Pack and verifying new objects and tabs.
+
+---
+
+## 3. Follow-Up Task Flow (New Donation)
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Demo of the Record-Triggered Flow that assigns a task when a donation is logged.
+
+---
+
+## 4. Scheduled Flow – Inactive Donors
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Shows how the scheduled Flow runs monthly to re-engage lapsed donors.
+
+---
+
+## 5. Dashboard Overview
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Explanation of custom nonprofit dashboard showing donation stats, campaign activity, and overdue tasks.
+
+---
+
+## 6. Optional – Einstein 1 Agent Demo
+
+**Loom Link:** _(Add your link here)_  
+**Purpose:** Shows sample queries in the Einstein 1 Agent interface for donor insights and automation.
+
