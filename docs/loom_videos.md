@@ -8,14 +8,14 @@ Each video supports a major step in the project and is designed to showcase func
 
 ## 1. Developer Org Setup
 
-**Loom Link:** _(https://www.loom.com/share/407ed1c61648445890dd280df6393586?sid=c5f59a66-e377-4438-b715-42ae810fdaea)_  
+**Loom Link:** _()_  
 **Purpose:** Walkthrough of creating the Salesforce Developer Org and accessing the Lightning UI.
 
 ---
 
 ## 2. NPSP Installation
 
-**Loom Link:** _(Add your link here)_  
+**Loom Link:** _(https://www.loom.com/share/407ed1c61648445890dd280df6393586?sid=c5f59a66-e377-4438-b715-42ae810fdaea)_  
 **Purpose:** Installing the Nonprofit Success Pack and verifying new objects and tabs.
 
 ---
