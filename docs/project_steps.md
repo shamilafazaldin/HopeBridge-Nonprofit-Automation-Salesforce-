@@ -40,6 +40,18 @@ After installing the Nonprofit Success Pack, verify that it appears in the App L
   - Follow-Up Date (Date field)
 - Updated Contact Page Layout to display new fields
 
+## Added Custom Fields to Contact
+
+We customized the Contact object to include fields that reflect our nonprofit’s needs.
+
+- **Constituent Role (Picklist):** Donor, Volunteer, Recipient, etc.
+- **Service Type (Picklist):** Food Support, Wellness Coaching, etc.
+- **Follow-Up Date (Date):** Next check-in date for each contact
+
+These fields help categorize and schedule outreach with individuals served.
+
+![Contact Custom Fields](./screenshots/contact-custom-fields.png)
+
 ---
 
 ## Step 4 – Create Record-Triggered Flow: Follow-Up Task for New Donation
