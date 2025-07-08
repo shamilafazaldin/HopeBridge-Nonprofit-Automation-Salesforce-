@@ -24,7 +24,8 @@ This document tracks each major implementation step in the HopeBridge nonprofit 
 
 After installing the Nonprofit Success Pack, verify that it appears in the App Launcher with the correct tabs.
 
-![NPSP Installed](./screenshots/npsp-installed.png)
+![NPSP Installed](./screenshots/NPSP Installation.png)
+
 
 ---
 
