@@ -92,6 +92,19 @@ These fields help categorize and schedule outreach with individuals served.
 
 ![Contact Custom Fields](./screenshots/contact-custom-fields.png)
 
+
+## Add Custom Fields to Page Layout
+
+We added our three custom fields to the standard Contact Layout so users can easily view and update important data:
+
+- **Constituent Role** – The individual’s role in the nonprofit (e.g., Donor, Volunteer)
+- **Service Type** – The type of service they’re receiving (e.g., Food Support, Wellness Coaching)
+- **Follow-Up Date** – The next scheduled contact or outreach date
+
+All fields were added under the main Contact Information section.
+
+![Contact Page Layout](./screenshots/contact-page-layout.png)
+
 ---
 
 ## Step 4 – Create Record-Triggered Flow: Follow-Up Task for New Donation
