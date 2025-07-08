@@ -20,7 +20,7 @@ This document tracks each major implementation step in the HopeBridge nonprofit 
 - Verified NPSP-specific tabs: Donations, Households, Affiliations, etc.
 
 
-## Step 2 – Confirm NPSP Installation
+## Confirm NPSP Installation
 
 After installing the Nonprofit Success Pack, verify that it appears in the App Launcher with the correct tabs.
 
