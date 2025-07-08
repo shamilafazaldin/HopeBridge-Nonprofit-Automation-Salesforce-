@@ -1,3 +1,43 @@
+## 📄 Project Summary – Hopbridge Outreach (Salesforce NPSP)
+
+**Hopbridge Outreach** is a fictional nonprofit organization supporting underserved communities through wellness programs and food assistance.
+
+This project demonstrates how a Salesforce Admin can implement a simple yet powerful CRM system for a small nonprofit using the **Nonprofit Success Pack (NPSP)**. The solution focuses on tracking relationships, managing service types, and automating follow-ups to ensure no one falls through the cracks.
+
+### 🎯 Problem We’re Solving
+
+Small nonprofits often lack the time, skills, or budget to set up CRMs that match their workflows. Staff rely on spreadsheets or email to track donor or client interactions — leading to:
+- Missed follow-ups
+- Poor reporting
+- Limited visibility into outreach efforts
+
+### ✅ Our Goal
+
+Build a lean, functional Salesforce CRM with:
+- Clean data model tailored to nonprofit needs
+- Custom fields for key information (e.g., service type, constituent role)
+- Automations to trigger follow-up tasks
+- Simple dashboards to track outreach and services
+
+### 🛠️ Tools & Features Used
+
+- **Salesforce Nonprofit Success Pack (NPSP)** – preconfigured CRM for nonprofits
+- **Salesforce Flows** – to automate follow-up reminders
+- **Custom Fields & Layouts** – to capture what matters most
+- **Reports & Dashboards** – for clear visibility into outreach
+- **GitHub** – for project documentation
+- **Loom & Screenshots** – for visual walkthroughs
+
+### 🎉 What We’ll Deliver
+
+By the end of this project, we will have:
+- A working Salesforce nonprofit org with customizations
+- Automated follow-up Flow for better engagement
+- A portfolio-ready GitHub repo with clear documentation
+- Reusable structure for similar nonprofit client projects
+
+
+
 # Project Build Log – HopeBridge CRM (Salesforce)
 
 This document tracks each major implementation step in the HopeBridge nonprofit CRM project. It follows the configuration of Salesforce Nonprofit Success Pack (NPSP), automation using Flows, reporting, and AI enhancements.
