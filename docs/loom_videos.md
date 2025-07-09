@@ -19,8 +19,14 @@ Each video supports a major step in the project and is designed to showcase func
 **Purpose:** Installing the Nonprofit Success Pack and verifying new objects and tabs.
 
 ---
+## 3. Contact Layout Customization
 
-## 3. Follow-Up Task Flow (New Donation)
+**Loom Link:** _(https://www.loom.com/share/5cf029c1749e46fcb8f2fa9ff82e71f8?sid=136d6c89-93d4-4927-a61e-4837cb893130)_  
+**Purpose:** Demonstrates how to place custom fields (Constituent Role, Service Type, Follow-Up Date) in the Contact Layout and create a new “Services” section for better field organization.
+
+---
+
+## 4. Follow-Up Task Flow (New Donation)
 
 **Loom Link:** _(Add your link here)_  
 **Purpose:** Demo of the Record-Triggered Flow that assigns a task when a donation is logged.
