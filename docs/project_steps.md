@@ -104,6 +104,8 @@ We added our three custom fields to the standard Contact Layout so users can eas
 All fields were added under the main Contact Information section.
 
 ![Contact Page Layout](./screenshots/contact-page-layout.png)
+🎥 Loom Walkthrough – Field Placement & Layout Setup:  
+[Watch on Loom](https://www.loom.com/share/https://www.loom.com/share/5cf029c1749e46fcb8f2fa9ff82e71f8?sid=136d6c89-93d4-4927-a61e-4837cb893130)
 
 ---
 
