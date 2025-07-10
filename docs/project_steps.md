@@ -148,7 +148,10 @@ This improves internal task management and ensures timely follow-ups with newly 
 ![Follow-Up Task Field Mapping](./screenshots/follow-up-task-fields.png)
 
 
-![Tested the flow ](./screenshots/test the flow new contact task created.PNG)
+![Tested the flow](./screenshots/test-the-flow-new-contact-task-created.PNG)
+
+[Watch on Loom](https://www.loom.com/share/5cf029c1749e46fcb8f2fa9ff82e71f8?sid=136d6c89-93d4-4927-a61e-4837cb893130)
+
 
 
 
