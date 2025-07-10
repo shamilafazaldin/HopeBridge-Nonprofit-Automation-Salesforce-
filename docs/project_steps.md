@@ -128,7 +128,7 @@ This supports better engagement and continuity for both food and wellness progra
 ![Follow-Up Flow Trigger](./screenshots/follow-up-flow-trigger.png)
 
 
-### Step 4B – Configure "Create Follow-Up Task" Element
+### Step 4.2 – Configure "Create Follow-Up Task" Element
 
 We configured the **Create Records** element to generate a Task assigned to the current user, reminding them to follow up with the new contact.
 **Field Mappings:**
