@@ -36,7 +36,9 @@ Each video supports a major step in the project and is designed to showcase func
 
 
 ---
+## Step 4 – Record-Triggered Flow: Auto-Follow-Up Task (Contact)
 
+**Loom Link:** _(https://www.loom.com/share/6f9e4160e4d74499afd8f593cd128584?sid=372a89f5-eca0-4acf-b528-779f9540c739)_  
 
 
 ## 7. Follow-Up Task Flow (New Donation)
