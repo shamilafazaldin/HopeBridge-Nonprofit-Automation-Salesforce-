@@ -128,6 +128,26 @@ This supports better engagement and continuity for both food and wellness progra
 ![Follow-Up Flow Trigger](./screenshots/follow-up-flow-trigger.png)
 
 
+### Step 4B – Configure "Create Follow-Up Task" Element
+
+We configured the Task creation in the Flow to assign a follow-up task for the Contact. This ensures every new Contact who provides a follow-up date automatically receives a reminder Task.
+
+**Field Mappings:**
+
+- **Subject**: FollowUpTaskSubject (Formula: `"Follow up with {!$Record.FirstName}"`)
+- **Due Date Only**: Triggering Contact → Follow_Up_Date__c
+- **Assigned To ID**: $User → Id
+- **Name ID**: Triggering Contact → Contact ID
+- **Status**: Not Started
+- **Priority**: Normal
+- **Description**: Follow-up scheduled during intake.
+
+This improves internal task management and ensures timely follow-ups with new contacts.
+
+![Follow-Up Task Field Mapping](./screenshots/follow-up-task-fields.png)
+
+
+
 
 ## Step ? – Create Record-Triggered Flow: Follow-Up Task for New Donation
 
