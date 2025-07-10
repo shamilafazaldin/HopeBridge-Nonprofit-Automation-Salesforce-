@@ -130,19 +130,20 @@ This supports better engagement and continuity for both food and wellness progra
 
 ### Step 4B – Configure "Create Follow-Up Task" Element
 
-We configured the Task creation in the Flow to assign a follow-up task for the Contact. This ensures every new Contact who provides a follow-up date automatically receives a reminder Task.
-
+We configured the **Create Records** element to generate a Task assigned to the current user, reminding them to follow up with the new contact.
 **Field Mappings:**
 
-- **Subject**: FollowUpTaskSubject (Formula: `"Follow up with {!$Record.FirstName}"`)
-- **Due Date Only**: Triggering Contact → Follow_Up_Date__c
-- **Assigned To ID**: $User → Id
-- **Name ID**: Triggering Contact → Contact ID
-- **Status**: Not Started
-- **Priority**: Normal
-- **Description**: Follow-up scheduled during intake.
 
-This improves internal task management and ensures timely follow-ups with new contacts.
+- **Subject**: `Follow up with {!$Record.FirstName}` *(Formula resource: `FollowUpTaskSubject`)*
+- **Due Date Only**: `Triggering Contact → Follow_Up_Date__c`
+- **Assigned To ID**: `$User → Id` *(or use a variable if $User.Id is not selectable)*
+- **Name ID**: `Triggering Contact → Contact ID`
+- **Status**: `Not Started`
+- **Priority**: `Normal`
+- **Description**: `Follow-up scheduled during intake.`
+
+This improves internal task management and ensures timely follow-ups with newly added contacts.
+
 
 ![Follow-Up Task Field Mapping](./screenshots/follow-up-task-fields.png)
 
