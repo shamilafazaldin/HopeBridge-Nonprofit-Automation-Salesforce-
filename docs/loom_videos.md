@@ -37,7 +37,9 @@ Each video supports a major step in the project and is designed to showcase func
 
 ---
 
-## 4. Follow-Up Task Flow (New Donation)
+
+
+## 7. Follow-Up Task Flow (New Donation)
 
 **Purpose:** Demo of the Record-Triggered Flow that assigns a task when a donation is logged.
 
