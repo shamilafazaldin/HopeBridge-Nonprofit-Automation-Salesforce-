@@ -150,7 +150,9 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ![Tested the flow](./screenshots/test-the-flow-new-contact-task-created.png)
 
-[Watch on Loom](https://www.loom.com/share/5cf029c1749e46fcb8f2fa9ff82e71f8?sid=136d6c89-93d4-4927-a61e-4837cb893130)
+
+
+[Watch on Loom](https://www.loom.com/share/6f9e4160e4d74499afd8f593cd128584?sid=aec4fb5c-1380-42b8-9591-bec2e4ec01fc)
 
 
 
