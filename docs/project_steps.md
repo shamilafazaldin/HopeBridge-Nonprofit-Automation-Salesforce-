@@ -145,7 +145,7 @@ We configured the **Create Records** element to generate a Task assigned to the 
 This improves internal task management and ensures timely follow-ups with newly added contacts.
 
 
-![Follow-Up Task Field Mapping](./screenshots/follow-up-task-fields.png)
+![Follow-Up Task Field Mapping](./screenshots/Auto Follow-Up Task – New Contact Flow.png)
 
 
 
