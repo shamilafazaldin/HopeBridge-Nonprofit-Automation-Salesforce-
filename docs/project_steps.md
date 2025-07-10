@@ -111,7 +111,25 @@ All fields were added under the main Contact Information section.
 
 ---
 
-## Step 4 – Create Record-Triggered Flow: Follow-Up Task for New Donation
+## Step 4 – Record-Triggered Flow: Auto-Follow-Up Task (Contact)
+
+This Flow ensures that important follow-up actions are not missed during community outreach.
+
+It watches for **new Contact records** where a **Follow-Up Date** is provided, and automatically creates a **Task** for the team to follow up with that contact on the specified date.
+
+### Flow Trigger Settings:
+- Object: Contact
+- Trigger: Record is Created
+- Condition: Follow_Up_Date__c Is Null = False
+- Optimization: Actions and Related Records
+
+This supports better engagement and continuity for both food and wellness program participants.
+
+![Follow-Up Flow Trigger](./screenshots/follow-up-flow-trigger.png)
+
+
+
+## Step ? – Create Record-Triggered Flow: Follow-Up Task for New Donation
 
 - Triggered on new Opportunity record where Type = Donation
 - Automatically creates Task for assigned user to follow up
