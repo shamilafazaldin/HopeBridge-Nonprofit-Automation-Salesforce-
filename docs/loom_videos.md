@@ -52,7 +52,7 @@ Each video supports a major step in the project and is designed to showcase func
 
 ---
 
-## 4. Scheduled Flow – Inactive Donors
+## 6. Scheduled Flow – Inactive Donors
 
 **Purpose:** Shows how the scheduled Flow runs monthly to re-engage lapsed donors.
 
@@ -63,7 +63,7 @@ Each video supports a major step in the project and is designed to showcase func
 
 ---
 
-## 5. Dashboard Overview
+## 7. Dashboard Overview
 
 **Purpose:** Explanation of custom nonprofit dashboard showing donation stats, campaign activity, and overdue tasks.
 
@@ -74,7 +74,7 @@ Each video supports a major step in the project and is designed to showcase func
 
 ---
 
-## 6. Optional – Einstein 1 Agent Demo
+## 8. Optional – Einstein 1 Agent Demo
 
 **Purpose:** Shows sample queries in the Einstein 1 Agent interface for donor insights and automation.
 
