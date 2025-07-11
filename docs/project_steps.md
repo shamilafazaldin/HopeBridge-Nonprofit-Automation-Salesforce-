@@ -151,22 +151,46 @@ This improves internal task management and ensures timely follow-ups with newly 
 ![Tested the flow](./screenshots/test-the-flow-new-contact-task-created.png)
 
 
-
 [Watch on Loom](https://www.loom.com/share/6f9e4160e4d74499afd8f593cd128584?sid=aec4fb5c-1380-42b8-9591-bec2e4ec01fc)
 
 
 
-
-
-## Step ? – Create Record-Triggered Flow: Follow-Up Task for New Donation
+## Step 5 – Create Record-Triggered Flow: Auto Follow-Up Task for New Donation
 
 - Triggered on new Opportunity record where Type = Donation
 - Automatically creates Task for assigned user to follow up
 - Flow tested and verified using a sample donation
 
+
+This Flow creates a follow-up Task whenever a new Donation (Opportunity) is logged in the system. It helps ensure that all donors are thanked or contacted promptly by the team.
+
+### Flow Trigger Settings:
+- Object: Opportunity
+- Trigger: Record is Created
+- Entry Condition: `Type` Equals `Donation`
+- Optimization: Actions and Related Records
+
+The Flow assigns a Task to the record owner for immediate donor engagement.
+
+### Create Records elements:
+
+**Field Mappings:**
+- **Subject**: `Follow up with new donor`
+- **Due Date Only**: `TODAY()`
+- **Assigned To ID**: `Opportunity Owner → Id`
+- **Related To (WhatId)**: `Opportunity → Id`
+- **Status**: `Not Started`
+- **Priority**: `High`
+- **Description**: `Please contact the donor to thank them for their recent contribution.`
+
+![Follow-Up Flow – New Donation](./screenshots/follow-up-donation-flow.png)
+
+🎥 Loom Walkthrough – Donation Task Automation:  
+[Watch on Loom](https://www.loom.com/share/YOUR-VIDEO-LINK-HERE)
+
 ---
 
-## Step 5 – Create Scheduled Flow: Re-Engagement for Inactive Donors
+## Step 6 – Create Scheduled Flow: Re-Engagement for Inactive Donors
 
 - Scheduled monthly run
 - Finds Contacts with no donation in the past 6 months
@@ -174,7 +198,7 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ---
 
-## Step 6 – Campaigns and Event Tracking
+## Step 7 – Campaigns and Event Tracking
 
 - Created sample Campaigns for:
   - Food Drive – August
@@ -184,7 +208,7 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ---
 
-## Step 7 – Record-Triggered Flow: Reminder Email for Upcoming Events
+## Step 8 – Record-Triggered Flow: Reminder Email for Upcoming Events
 
 - Flow triggered when Follow-Up Date = Today
 - Sends email reminder to assigned Contact using Email Alert
@@ -192,7 +216,7 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ---
 
-## Step 8 – Reports and Dashboards
+## Step 9 – Reports and Dashboards
 
 - Created report types:
   - Donations by Campaign
@@ -202,7 +226,7 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ---
 
-## Step 9 – Optional Add-On: Einstein 1 Agent Assistant
+## Step 10 – Optional Add-On: Einstein 1 Agent Assistant
 
 - Enabled and added Einstein 1 Agent to App
 - Configured 3 sample prompts:
@@ -213,7 +237,7 @@ This improves internal task management and ensures timely follow-ups with newly 
 
 ---
 
-## Step 10 – Final Testing and Demo Preparation
+## Step 11 – Final Testing and Demo Preparation
 
 - Created 2 test Contacts, 2 sample Donations, and 1 Campaign
 - Ran all Flows and verified outcomes
