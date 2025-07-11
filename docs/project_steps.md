@@ -199,6 +199,22 @@ The Flow assigns a Task to the record owner for immediate donor engagement.
 - Scheduled monthly run
 - Finds Contacts with no donation in the past 6 months
 - Creates Task for admin to re-engage with donor
+- It searches for **Contacts who have not made a donation in the past 6 months** and assigns a follow-up Task to the admin or designated user. This supports long-term donor retention and proactive outreach
+- 
+### Flow Trigger Settings:
+- **Flow Type**: Scheduled-Triggered Flow
+- **Frequency**: Monthly
+- **Start Date/Time**: [Tomorrow at 12:00 AM or your preferred start time]
+- **Object**: Contact
+- **Entry Conditions**: None (all Contacts are evaluated in the next step)
+- **Optimization**: Actions and Related Records
+
+This lays the foundation for identifying inactive donors and automating timely follow-ups.
+
+![Scheduled Flow Settings](./screenshots/scheduled-flow-settings.png)
+
+🎥 Loom Walkthrough – Scheduled Flow Setup  
+[Watch on Loom](https://www.loom.com/share/YOUR-LOOM-ID-HERE)
 
 ---
 
