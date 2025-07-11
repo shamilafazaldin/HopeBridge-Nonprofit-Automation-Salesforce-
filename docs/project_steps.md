@@ -136,7 +136,7 @@ We configured the **Create Records** element to generate a Task assigned to the 
 
 - **Subject**: `Follow up with {!$Record.FirstName}` *(Formula resource: `FollowUpTaskSubject`)*
 - **Due Date Only**: `Triggering Contact → Follow_Up_Date__c`
-- **Assigned To ID**: `triggering contact > ownerID > userID*
+- **Assigned To ID**: Triggering Contact → OwnerId  
 - **Name ID**: `Triggering Contact → Contact ID`
 - **Status**: `Not Started`
 - **Priority**: `Normal`
