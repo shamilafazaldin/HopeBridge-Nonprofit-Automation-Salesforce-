@@ -167,7 +167,7 @@ This Flow creates a follow-up Task whenever a new Donation (Opportunity) is logg
 ### Flow Trigger Settings:
 - Object: Opportunity
 - Trigger: Record is Created
-- Entry Condition: `Type` Equals `Donation`
+- Entry Condition: `Opportunity.Type` Equals `New Customer`
 - Optimization: Actions and Related Records
 
 The Flow assigns a Task to the record owner for immediate donor engagement.
@@ -175,18 +175,22 @@ The Flow assigns a Task to the record owner for immediate donor engagement.
 ### Create Records elements:
 
 **Field Mappings:**
-- **Subject**: `Follow up with new donor`
-- **Due Date Only**: `TODAY()`
-- **Assigned To ID**: `Opportunity Owner → Id`
-- **Related To (WhatId)**: `Opportunity → Id`
+
+- **Subject**: `Follow up on new donation`
+- **Due Date Only**: `Triggering Opportunity → CloseDate`
+- **Assigned To ID**: `Triggering Opportunity → OwnerId`
+- **Related To ID**: `Triggering Opportunity → Id`
 - **Status**: `Not Started`
-- **Priority**: `High`
+- **Priority**: `Normal`
 - **Description**: `Please contact the donor to thank them for their recent contribution.`
 
-![Follow-Up Flow – New Donation](./screenshots/follow-up-donation-flow.png)
+![Donation Task Flow](./screenshots/donation-task-flow.png)
+
+![Donation Task Created](./screenshots/donation-task-created.png)
 
 🎥 Loom Walkthrough – Donation Task Automation:  
 [Watch on Loom](https://www.loom.com/share/YOUR-VIDEO-LINK-HERE)
+
 
 ---
 
