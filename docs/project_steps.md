@@ -196,14 +196,15 @@ The Flow assigns a Task to the record owner for immediate donor engagement.
 
 ## Step 6 – Create Scheduled Flow: Re-Engagement for Inactive Donors
 
-- Scheduled monthly run
+- In a real-world org, this would be set to run weekly/monthly, with deduplication logic to avoid creating repeated tasks for the same donor.
+- Scheduled run once 
 - Finds Contacts with no donation in the past 6 months
 - Creates Task for admin to re-engage with donor
 - It searches for **Contacts who have not made a donation in the past 6 months** and assigns a follow-up Task to the admin or designated user. This supports long-term donor retention and proactive outreach
 - 
 ### Flow Trigger Settings:
 - **Flow Type**: Scheduled-Triggered Flow
-- **Frequency**: Monthly
+- **Frequency**: once
 - **Start Date/Time**: [Tomorrow at 12:00 AM or your preferred start time]
 - **Object**: Contact
 - **Entry Conditions**: None (all Contacts are evaluated in the next step)
