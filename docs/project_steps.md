@@ -189,7 +189,7 @@ The Flow assigns a Task to the record owner for immediate donor engagement.
 ![Donation Task Created](./screenshots/donation-task-created.png)
 
 🎥 Loom Walkthrough – Donation Task Automation:  
-[Watch on Loom](https://www.loom.com/share/ddf6a061fe214c13a490c75b4f5ef7e2?sid=5cff079f-293f-41ec-8345-449189f47878))
+[Watch on Loom](https://www.loom.com/share/38faeeb60de9460a9b469fab2c6dbfea?sid=2e077f1d-08a1-47d4-8d77-b9fe2cc22cd1)
 
 
 ---
