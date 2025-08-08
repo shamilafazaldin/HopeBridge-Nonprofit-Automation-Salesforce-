@@ -212,7 +212,8 @@ The Flow assigns a Task to the record owner for immediate donor engagement.
 
 This lays the foundation for identifying inactive donors and automating timely follow-ups.
 
-![Scheduled Flow Settings](./screenshots/scheduled-flow-settings.png)
+![Scheduled Flow Settings](./screenshots/scheduled-flow-for-donor.png)
+
 
 🎥 Loom Walkthrough – Scheduled Flow Setup  
 [Watch on Loom](https://www.loom.com/share/YOUR-LOOM-ID-HERE)
