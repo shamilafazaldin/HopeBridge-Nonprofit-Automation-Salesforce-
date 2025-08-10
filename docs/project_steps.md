@@ -218,37 +218,79 @@ This lays the foundation for identifying inactive donors and automating timely f
 🎥 Loom Walkthrough – Scheduled Flow Setup  
 [Watch on Loom](https://www.loom.com/share/YOUR-LOOM-ID-HERE)
 
----
 
-## Step 7 – Campaigns and Event Tracking
 
-- Created sample Campaigns for:
-  - Food Drive – August
-  - Wellness Workshop – September
-- Added sample Contacts to Campaigns
-- Verified Campaign Member statuses (Planned, Responded, Attended)
 
 ---
 
-## Step 8 – Record-Triggered Flow: Reminder Email for Upcoming Events
+## Step 7 – Reports and Dashboards
 
-- Flow triggered when Follow-Up Date = Today
-- Sends email reminder to assigned Contact using Email Alert
-- Custom Email Template created for reminder message
-
----
-
-## Step 9 – Reports and Dashboards
-
+### Overview
 - Created report types:
   - Donations by Campaign
   - Volunteer Participation
   - Overdue Tasks by Assigned User
-- Built a dashboard with 4 components using the above reports
+- Built a dashboard with 4 components using the above reports.
 
 ---
 
-## Step 10 – Optional Add-On: Einstein 1 Agent Assistant
+### Detailed Steps
+
+####  Create a Donations Report
+**Objective:** Track all donations with key donor details and amounts for better insights into fundraising.
+
+ **Navigate to the Reports Tab**
+   - Open the App Launcher.
+   - Search for and select **Reports**.
+   - Click **New Report**.
+
+ **Select Report Type**
+   - Choose **Opportunities with Contacts**.
+
+ **Apply Filters**
+   - **Close Date:** All Time (adjustable for campaigns).
+   - **Stage:** Closed Won.
+
+ **Add Columns**
+   - Opportunity Name
+   - Contact Name
+   - Amount
+   - Close Date
+   - Stage
+
+ **Group and Summarize**
+   - Group Rows By: Contact Name.
+   - Add a Sum to the Amount column.
+
+ **Save**
+   - Name: `Donations Summary Report`
+   - Description: Shows all closed won donations with donor details and totals.
+   - Folder: Public Reports or `HopeBridge Reports`.
+
+ **Run the Report**
+   - Click **Run** to view results.
+
+ **📸 Screenshot Tip:** Capture the grouped report view after adding the Amount summary.
+
+   🎥 Loom Walkthrough – Reports & Dashboards: 
+
+[Watch on Loom]()
+
+
+---
+
+## Step 8 – Campaigns and Event Tracking
+
+- Created sample Campaigns for:
+- Food Drive – August
+- Wellness Workshop – September
+- Added sample Contacts to Campaigns
+- Verified Campaign Member statuses (Planned, Responded, Attended)
+
+
+---
+
+## Step 9 – Optional Add-On: Einstein 1 Agent Assistant
 
 - Enabled and added Einstein 1 Agent to App
 - Configured 3 sample prompts:
