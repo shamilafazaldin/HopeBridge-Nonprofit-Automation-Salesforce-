@@ -223,58 +223,36 @@ This lays the foundation for identifying inactive donors and automating timely f
 
 ---
 
-## Step 7 – Reports and Dashboards
+## Step 7 – Reports & Dashboards
 
 ### Overview
-- Created report types:
-  - Donations by Campaign
-  - Volunteer Participation
-  - Overdue Tasks by Assigned User
-- Built a dashboard with 4 components using the above reports.
+Built a comprehensive reporting solution for HopeBridge Outreach to track donor engagement, volunteer participation, and program impact through a single executive dashboard.
 
----
+### Business Requirements
+- Executive team requires a unified view of organizational performance  
+- Key Metrics: Donation trends, volunteer hours, client services, program ROI  
+- User Personas: Executive Director, Development Manager, Program Coordinators  
 
-### Detailed Steps
+### Implementation Summary
+- Created a unified report showing donor and program metrics using **Accounts with Opportunities** report type  
+- Built an executive dashboard with key charts for donations, donor rankings, program split, and performance metrics  
 
-####  Create a Donations Report
-**Objective:** Track all donations with key donor details and amounts for better insights into fundraising.
+### Technical Skills Demonstrated
+- Complex report filters, groupings, and calculated summaries  
+- Dashboard design with multiple chart types and responsive layout  
+- Cross-object data analysis and executive-focused UX  
 
- **Navigate to the Reports Tab**
-   - Open the App Launcher.
-   - Search for and select **Reports**.
-   - Click **New Report**.
+### Business Impact
+- Reduced manual reporting time significantly  
+- Enhanced real-time decision-making with visual insights  
+- Improved donor stewardship and resource allocation visibility  
 
- **Select Report Type**
-   - Choose **Opportunities with Contacts**.
+### Screenshots & Demo
 
- **Apply Filters**
-   - **Close Date:** All Time (adjustable for campaigns).
-   - **Stage:** Closed Won.
+#### Combined Report & Dashboard View  
+![HopeBridge Reports & Dashboard](screenshots/hopebridge-report-dashboard.png)  
 
- **Add Columns**
-   - Opportunity Name
-   - Contact Name
-   - Amount
-   - Close Date
-   - Stage
-
- **Group and Summarize**
-   - Group Rows By: Contact Name.
-   - Add a Sum to the Amount column.
-
- **Save**
-   - Name: `Donations Summary Report`
-   - Description: Shows all closed won donations with donor details and totals.
-   - Folder: Public Reports or `HopeBridge Reports`.
-
- **Run the Report**
-   - Click **Run** to view results.
-
- **📸 Screenshot Tip:** Capture the grouped report view after adding the Amount summary.
-
-   🎥 Loom Walkthrough – Reports & Dashboards: 
-
-[Watch on Loom]()
+🎥 Loom Walkthrough [ HopeBridge Reports and Dashboard Overview](https://www.loom.com/share/your-demo-video-link)  
 
 
 ---
