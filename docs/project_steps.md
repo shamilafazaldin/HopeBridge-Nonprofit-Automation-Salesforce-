@@ -254,7 +254,7 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 
 ![HopeBridge Dashboard](screenshots/dashboard-hopebridge.png) 
 
-🎥 Loom Walkthrough HopeBridge Dashboard Overvie  (https://drive.google.com/file/d/1BPHuejb23NBvzGsKTSpjQfPK_0isSNYL/view?usp=sharing)
+🎥 Walkthrough HopeBridge Dashboard Overview  (https://drive.google.com/file/d/1BPHuejb23NBvzGsKTSpjQfPK_0isSNYL/view?usp=sharing)
 
 
 ---
@@ -267,6 +267,10 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 - Added sample Contacts to Campaigns
 - Verified Campaign Member statuses (Planned, Responded, Attended)
 
+![HopeBridge Dashboard](screenshots/dashboard-hopebridge.png) 
+
+
+🎥 Walkthrough HopeBridge campaigns names & contacts (https://drive.google.com/file/d/1mdFJJ-aUXmp9--fOn5Sy7mco98AE3jft/view?usp=sharing)
 
 ---
 
