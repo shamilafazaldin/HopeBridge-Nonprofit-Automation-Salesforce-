@@ -69,7 +69,9 @@ Each video supports a major step in the project and is designed to showcase func
 
 
 ---
-Campaigns and Event Tracking
+## 8.Campaigns and Event Tracking
+
+**Purpose:**  Create sample Campaigns for like food and wellness & add contacts to campaigns
 
 
 🎥 Walkthrough HopeBridge campaigns names & contacts (https://drive.google.com/file/d/1mdFJJ-aUXmp9--fOn5Sy7mco98AE3jft/view?usp=sharing)
