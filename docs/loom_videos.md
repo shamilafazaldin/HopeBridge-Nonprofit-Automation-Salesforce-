@@ -46,10 +46,6 @@ Each video supports a major step in the project and is designed to showcase func
 **Purpose:** Demo of the Record-Triggered Flow that assigns a task when a donation is logged.
 
 
-**Loom Link:** _(https://www.loom.com/share/ddf6a061fe214c13a490c75b4f5ef7e2?sid=5cff079f-293f-41ec-8345-449189f47878)_  
-
-
-
 ---
 
 ## 6. Scheduled Flow – Inactive Donors
