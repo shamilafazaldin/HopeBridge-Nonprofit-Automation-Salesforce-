@@ -267,7 +267,9 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 - Added sample Contacts to Campaigns
 - Verified Campaign Member statuses (Planned, Responded, Attended)
 
-![HopeBridge Dashboard](screenshots/dashboard-hopebridge.png) 
+![HopeBridge campaigns](screenshots/campaigns-created.png) 
+
+![HopeBridge contacts added to campaigns ](screenshots/) 
 
 
 🎥 Walkthrough HopeBridge campaigns names & contacts (https://drive.google.com/file/d/1mdFJJ-aUXmp9--fOn5Sy7mco98AE3jft/view?usp=sharing)
