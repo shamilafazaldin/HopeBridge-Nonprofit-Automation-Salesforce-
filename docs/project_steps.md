@@ -254,7 +254,7 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 
 ![HopeBridge Dashboard](screenshots/dashboard-hopebridge.png) 
 
-🎥 Loom Walkthrough [ HopeBridge Reports and Dashboard Overview](https://www.loom.com/share/your-demo-video-link)  
+🎥 Loom Walkthrough HopeBridge Dashboard Overvie  (https://drive.google.com/file/d/1BPHuejb23NBvzGsKTSpjQfPK_0isSNYL/view?usp=sharing)
 
 
 ---
