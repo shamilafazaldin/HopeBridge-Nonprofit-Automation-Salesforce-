@@ -68,7 +68,7 @@ Each video supports a major step in the project and is designed to showcase func
 **Purpose:** Explanation of custom nonprofit dashboard showing donation stats, campaign activity, and overdue tasks.
 
 
-**Loom Link:** _(Add your link here)_  
+**Loom Link:** _ (https://drive.google.com/file/d/1BPHuejb23NBvzGsKTSpjQfPK_0isSNYL/view?usp=sharing))_  
 
 
 
