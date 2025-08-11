@@ -269,7 +269,8 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 
 ![HopeBridge campaigns](screenshots/campaigns-created.png) 
 
-![HopeBridge contacts added to campaigns ](screenshots/) 
+
+![HopeBridge members added to campaigns ](screenshots/campaign-members-hopebridge.png) 
 
 
 🎥 Walkthrough HopeBridge campaigns names & contacts (https://drive.google.com/file/d/1mdFJJ-aUXmp9--fOn5Sy7mco98AE3jft/view?usp=sharing)
