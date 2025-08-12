@@ -22,10 +22,12 @@ Build a lean, functional Salesforce CRM with:
 ### 🛠️ Tools & Features Used
 
 - **Salesforce Nonprofit Success Pack (NPSP)** – preconfigured CRM for nonprofits
-- **Salesforce Flows** – to automate follow-up reminders
 - **Custom Fields & Layouts** – to capture what matters most
+- **Salesforce Flows** – to automate follow-up reminders
 - **Reports & Dashboards** – for clear visibility into outreach
-- **GitHub** – for project documentation
+- **Campaigns and Event Tracking** -
+- **Einstein 1 Agent Assistant** -
+- **GitHub** & **Google docs** – for project documentation
 - **Loom & Screenshots** – for visual walkthroughs
 
 ### 🎉 What We’ll Deliver
