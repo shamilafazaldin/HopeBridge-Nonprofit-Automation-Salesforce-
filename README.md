@@ -30,6 +30,14 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 - **Volunteer Activity:** Summarize volunteer participation by event.
 - **Follow-up Tasks:** Dashboard tracking overdue follow-ups for staff to ensure timely outreach.
 
+### Campaigns and Event Tracking
+
+- Created sample Campaigns for:
+- Food Drive – August
+- Wellness Workshop – September
+- Added sample Contacts to Campaigns
+- Verified Campaign Member statuses (Planned, Responded, Attended)
+
 ### Optional Add-on: Einstein 1 Agent (AI Assistant)
 - Set up basic prompts using Einstein 1 Agent to provide AI-powered insights, such as "Show me the top donors this month" or "Create a task for upcoming volunteer drive."
 
