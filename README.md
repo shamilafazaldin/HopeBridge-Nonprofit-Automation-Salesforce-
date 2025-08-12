@@ -30,9 +30,9 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 - **Volunteer Activity:** Summarize volunteer participation by event.
 - **Follow-up Tasks:** Dashboard tracking overdue follow-ups for staff to ensure timely outreach.
 
-### Campaigns and Event Tracking
+### Campaigns and Event Tracking 
 
-- **Created sample Campaigns for:** 
+- **Created sample Campaigns for:** - Tracks participation, donations, and outcomes for marketing campaigns and events.
 - Food Drive – August
 - Wellness Workshop – September
 - **Added sample Contacts to Campaigns:** 
