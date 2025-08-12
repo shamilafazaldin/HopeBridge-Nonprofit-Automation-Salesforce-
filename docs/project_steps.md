@@ -25,8 +25,8 @@ Build a lean, functional Salesforce CRM with:
 - **Custom Fields & Layouts** – to capture what matters most
 - **Salesforce Flows** – to automate follow-up reminders
 - **Reports & Dashboards** – for clear visibility into outreach
-- **Campaigns and Event Tracking** -
-- **Einstein 1 Agent Assistant** -
+- **Campaigns and Event Tracking** -  Tracks participation, donations, and outcomes for marketing campaigns and events.
+- **Einstein 1 Agent Assistant** - Uses AI to quickly find information, answer questions, and complete tasks.
 - **GitHub** & **Google docs** – for project documentation
 - **Loom & Screenshots** – for visual walkthroughs
 
