@@ -32,10 +32,10 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 
 ### Campaigns and Event Tracking
 
-- Created sample Campaigns for:
+- **Created sample Campaigns for:** 
 - Food Drive – August
 - Wellness Workshop – September
-- Added sample Contacts to Campaigns
+- **Added sample Contacts to Campaigns:** 
 - Verified Campaign Member statuses (Planned, Responded, Attended)
 
 ### Optional Add-on: Einstein 1 Agent (AI Assistant)
@@ -59,6 +59,12 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 ### 4. **Reports and Dashboards**
 - Designed donation reports by campaign and donor type.
 - Set up a dashboard to track volunteer hours, event participation, and upcoming follow-up tasks.
+
+### Campaigns and Event Tracking
+
+- Created sample Campaigns for: Food Drive – August & Wellness Workshop – September
+- Added sample Contacts to Campaigns & Verified Campaign Member statuses (Planned, Responded, Attended)
+ 
 
 ### 5. **Optional Add-on: Einstein 1 Agent**
 - Configured Einstein 1 Agent to allow nonprofit admins to query CRM data via natural language prompts.
