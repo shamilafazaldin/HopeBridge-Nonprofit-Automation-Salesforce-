@@ -302,6 +302,8 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
 - **Output**: `topDonorsOutput` string passed back to the bot.
 
  ![Hopebridge Get top donor flow  ](screenshots/Bot-flow-new.png) 
+
+ ![Bot Get top donor  ](screenshots/) 
  
 🎥 Walkthrough Bot- Get Top Donor Bot Testing (https://drive.google.com/file/d/1ocspLciOXiaYTnP8mlHxC4sXcLcg9C3t/view?usp=sharing)
 
@@ -324,7 +326,9 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
   4. Bot now successfully accesses Opportunities, Contacts, and Campaign Members.  
 
  
- ![HopeBridge Bot – Get Volunteer Count](screenshots/volunteer-count-flow.png) 
+ ![HopeBridge Flow – Get Volunteer Count](screenshots/volunteer-count-flow.png) 
+
+ ![Bot – Get Volunteer Count ](screenshots/) 
  
 🎥 Walkthrough HopeBridge Get Volunteer Count (https://drive.google.com/file/d/1gbCDvcR4X1B4b9mEC4_Qs62TXVc6VQqD/view?usp=sharing)
 
