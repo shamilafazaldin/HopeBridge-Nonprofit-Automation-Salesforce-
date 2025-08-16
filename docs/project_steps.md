@@ -303,7 +303,7 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
 
  ![Hopebridge Get top donor flow  ](screenshots/Bot-flow-new.png) 
 
- ![Bot Get top donor  ](screenshots/) 
+ ![Bot Get top donor  ](screenshots/Bot-get-top-donor.png) 
  
 🎥 Walkthrough Bot- Get Top Donor Bot Testing (https://drive.google.com/file/d/1ocspLciOXiaYTnP8mlHxC4sXcLcg9C3t/view?usp=sharing)
 
