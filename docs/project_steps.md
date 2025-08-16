@@ -330,9 +330,32 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
  ![HopeBridge Flow – Get Volunteer Count](screenshots/volunteer-count-flow.png) 
 
  
- ![Bot – Get Volunteer Count ](screenshots/) 
+ ![Bot – Get Volunteer Count ](screenshots/volunteer-count-bot-message-test.png) 
  
 🎥 Walkthrough HopeBridge Get Volunteer Count (https://drive.google.com/file/d/1gbCDvcR4X1B4b9mEC4_Qs62TXVc6VQqD/view?usp=sharing)
+
+
+### Bot - Review Campaign Performance
+
+**Dialog Purpose:**  
+Provides staff with quick guidance on how to locate and review campaign metrics directly in Salesforce, without the bot needing to fetch live data.
+
+**Configuration Steps:**
+1. In **Einstein Bot Builder**, create a new Dialog named `Review Campaign Performance`.
+2. Add a **Message element** with the following text:  
+
+   *"You can see the performance of any campaign by viewing its record.  
+   Go to the **Campaigns tab**, select the campaign you want to review, and check the **Campaign Details** section to see key metrics like Total Donations and Member Status.  
+   For more detailed insight, you can use the **Reports tab** to create a custom Campaign Performance report."*
+3. Connect this dialog back to the **Main Menu**.
+
+**Key Notes:**
+- This dialog does not use a Flow, since it provides **guidance only** (no backend queries needed).
+- Ensures staff can quickly access the most important campaign KPIs without searching manually.
+- Keeps the bot lightweight by directing users to existing Salesforce reports and dashboards.
+
+
+![HopeBridge Bot- Review Campaign performance ](screenshots/) 
 
 
 ---
