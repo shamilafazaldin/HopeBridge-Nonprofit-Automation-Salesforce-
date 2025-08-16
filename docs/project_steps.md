@@ -279,14 +279,52 @@ Built a comprehensive reporting solution for HopeBridge Outreach to track donor 
 
 ---
 
-## Step 9 – Optional Add-On: Einstein 1 Agent Assistant
+## Step 9 – AI Assistant (Einstein Bot)
 
-- Enabled and added Einstein 1 Agent to App
-- Configured 3 sample prompts:
-  - "Show top donors this month"
-  - "List all upcoming events"
-  - "Create follow-up task for new contact"
-- Verified responses via Einstein UI
+Configured a conversational AI assistant using **Einstein Bots** to help staff quickly access key donor, volunteer, and campaign information.
+
+### Bot Dialogs Created
+- **Get Donor Information** – Asks how many top donors to display and retrieves them dynamically.  
+- **Check on Volunteers** – Requests a campaign name and reports how many volunteers attended.  
+- **Review Campaign Performance** – Guides the user on where to find campaign metrics and reports.
+
+### Core Components Built
+- **Einstein Bot**: Created the **Outreach Assistant** bot with a Welcome message and Main Menu leading to three conversational paths.  
+
+#### Flow – Bot – Get Top Donors
+- **Inputs**: `numberOfDonors_Input` (number).  
+- **Logic**:  
+  - Query **Opportunity** for "Closed Won" donations where **Primary Contact** is not null.  
+  - Sort by **Amount (DESC)**.  
+  - Loop through records, limit by requested number.  
+  - Perform **Get Records** on **Contact** to retrieve donor **Full Name**.  
+  - Use **Text Template + Assignment** to format donor name and donation amount.  
+- **Output**: `topDonorsOutput` string passed back to the bot.
+
+ ![HopeBridge Get top donor flow  ](screenshots/campaign-members-hopebridge.png) 
+ 
+🎥 Walkthrough HopeBridge Get Top Donor Bot Testing (https://drive.google.com/file/d/1ocspLciOXiaYTnP8mlHxC4sXcLcg9C3t/view?usp=sharing)
+
+
+#### Flow – Bot – Get Volunteer Count
+- **Inputs**: `campaignName_Input` (text).  
+- **Logic**:  
+  - Query **Campaign** by exact name.  
+  - Query **Campaign Member** with `Status = Attended`.  
+  - Use **Equals Count** to total number of volunteers.  
+- **Output**: `volunteerCount_Output` integer passed back to the bot.  
+
+### Key Challenge & Solution – Permissions
+- **Problem**: Bot failed with "system error" when calling Flows (but worked in Debugger).  
+- **Cause**: Default **Basic Bot User** lacked object/flow permissions.  
+- **Solution**:  
+  1. Created a new Profile (**Bot Profile**) with **View All Data** + **Run Flows**.  
+  2. Created a dedicated User (**Assistant User**) with this Profile.  
+  3. In Bot Settings → switched Bot User from *Basic* to this **Custom User**.  
+  4. Bot now successfully accesses Opportunities, Contacts, and Campaign Members.  
+
+---
+✅ **Result:** A working conversational bot that reduces manual lookup tasks by surfacing donor, volunteer, and campaign insights in real time.
 
 ---
 
