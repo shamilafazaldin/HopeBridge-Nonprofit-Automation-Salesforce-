@@ -129,8 +129,12 @@ For more detailed insight, you can use the **Reports tab** to create a custom Ca
 ---
 
 ## Deployment
+
+- Bot has been published and is available for staff through the **utility bar** and **app workspace**.  
 - Added to the **Service App navigation bar** for quick access.  
-- Bot is published and available for staff through the **utility bar** or **app workspace**.  
+- A **custom profile** was created and assigned to bot users, granting access to Einstein Bot functionality (Bot records, Bot Dialogs, and required objects such     as Cases, Contacts, Opportunities).  
+- Staff with this profile can immediately access and interact with the bot once they log into the Service App.  
+ 
 
 ---
 
