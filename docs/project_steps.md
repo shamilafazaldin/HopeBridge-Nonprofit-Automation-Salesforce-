@@ -301,9 +301,9 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
   - Use **Text Template + Assignment** to format donor name and donation amount.  
 - **Output**: `topDonorsOutput` string passed back to the bot.
 
- ![HopeBridge Get top donor flow  ](screenshots/Bot-flow-new.png) 
+ ![Hopebridge Get top donor flow  ](screenshots/Bot-flow-new.png) 
  
-🎥 Walkthrough HopeBridge Get Top Donor Bot Testing (https://drive.google.com/file/d/1ocspLciOXiaYTnP8mlHxC4sXcLcg9C3t/view?usp=sharing)
+🎥 Walkthrough Bot- Get Top Donor Bot Testing (https://drive.google.com/file/d/1ocspLciOXiaYTnP8mlHxC4sXcLcg9C3t/view?usp=sharing)
 
 
 #### Flow – Bot – Get Volunteer Count
