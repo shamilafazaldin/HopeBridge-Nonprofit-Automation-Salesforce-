@@ -38,8 +38,14 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 - **Added sample Contacts to Campaigns:** 
 - Verified Campaign Member statuses (Planned, Responded, Attended)
 
-### Optional Add-on: Einstein 1 Agent (AI Assistant)
-- Set up basic prompts using Einstein 1 Agent to provide AI-powered insights, such as "Show me the top donors this month" or "Create a task for upcoming volunteer drive."
+### # Einstein Bot - Engagement Assistant
+
+-This Einstein Bot provides a guided experience for users to quickly access information related to donors, volunteers, and campaign performance.  
+-It is designed to simplify navigation and support staff in engaging with core fundraising and event data.
+
+---
+
+
 
 ## Project Phases
 
@@ -66,8 +72,79 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 - Added sample Contacts to Campaigns & Verified Campaign Member statuses (Planned, Responded, Attended)
  
 
-### 5. **Optional Add-on: Einstein 1 Agent**
-- Configured Einstein 1 Agent to allow nonprofit admins to query CRM data via natural language prompts.
+### 5. # Einstein Bot - Engagement Assistant
+
+## Overview
+This Einstein Bot provides a guided experience for users to quickly access information related to donors, volunteers, and campaign performance.  
+It is designed to simplify navigation and support staff in engaging with core fundraising and event data.
+
+---
+
+## Bot Structure
+
+### Main Menu
+- **Donor Information**
+- **Volunteer Information**
+- **Review Campaign Performance**
+
+---
+
+## Dialogs
+
+### 1. Donor Information
+**Purpose:**  
+Provides quick access to donor-related data and guidance.
+
+**Key Components:**  
+- Message elements with navigation tips  
+- Directs users to the **Opportunities/Donations tab** for donor activity  
+- Guides on how to review donation history and details  
+
+---
+
+### 2. Volunteer Information
+**Purpose:**  
+Supports staff by pointing them to volunteer-related data.
+
+**Key Components:**  
+- Message elements with navigation tips  
+- Directs users to the **Contacts tab** and related lists for volunteer details  
+- Explains where to find volunteer roles and event participation  
+
+---
+
+### 3. Review Campaign Performance
+**Purpose:**  
+Guides staff on how to view campaign metrics and performance.
+
+**Message:**  
+*"You can see the performance of any campaign by viewing its record.  
+Go to the **Campaigns tab**, select the campaign you want to review, and check the **Campaign Details** section to see key metrics like Total Donations and Member Status.  
+For more detailed insight, you can use the **Reports tab** to create a custom Campaign Performance report."*
+
+**Notes:**  
+- This dialog contains only one **Message element**.  
+- Purely informational — no flow branching.  
+
+---
+
+## Deployment
+- Added to the **Service App navigation bar** for quick access.  
+- Bot is published and available for staff through the **utility bar** or **app workspace**.  
+
+---
+
+## Core Components Built
+- Einstein Bot with **Main Menu & 3 Dialogs**  
+- Simple navigation & guidance (no Apex or custom code)  
+- Integration with standard Salesforce objects: **Opportunities, Contacts, Campaigns**
+
+---
+
+## Benefits
+- Staff can quickly locate donor, volunteer, and campaign data without extra training.  
+- Reduces time spent searching across records.  
+- Creates a lightweight self-service assistant directly inside Salesforce.  
 
 ## Tools Used
 
