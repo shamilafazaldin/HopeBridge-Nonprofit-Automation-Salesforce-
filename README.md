@@ -38,7 +38,7 @@ The project focuses on building an easy-to-use Salesforce system for nonprofits 
 - **Added sample Contacts to Campaigns:** 
 - Verified Campaign Member statuses (Planned, Responded, Attended)
 
-### # Einstein Bot - Engagement Assistant
+### Einstein Bot - Engagement Assistant
 
 -This Einstein Bot provides a guided experience for users to quickly access information related to donors, volunteers, and campaign performance.  
 -It is designed to simplify navigation and support staff in engaging with core fundraising and event data.
