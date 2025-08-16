@@ -355,7 +355,7 @@ Provides staff with quick guidance on how to locate and review campaign metrics 
 - Keeps the bot lightweight by directing users to existing Salesforce reports and dashboards.
 
 
-![HopeBridge Bot- Review Campaign performance ](screenshots/) 
+![Bot- Review Campaign performance ](screenshots/review-campign.png) 
 
 
 ---
@@ -365,6 +365,6 @@ Provides staff with quick guidance on how to locate and review campaign metrics 
 
 ## Step 11 – Final Testing and Demo Preparation
 
-- Created 2 test Contacts, 2 sample Donations, and 1 Campaign
+- Created  test Contacts,  sample Donations, & Campaigns
 - Ran all Flows and verified outcomes
 - Final screenshots and Loom walkthroughs created for portfolio
