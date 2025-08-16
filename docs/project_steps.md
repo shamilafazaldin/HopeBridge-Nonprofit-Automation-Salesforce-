@@ -323,6 +323,12 @@ Configured a conversational AI assistant using **Einstein Bots** to help staff q
   3. In Bot Settings → switched Bot User from *Basic* to this **Custom User**.  
   4. Bot now successfully accesses Opportunities, Contacts, and Campaign Members.  
 
+ 
+ ![HopeBridge Bot – Get Volunteer Count](screenshots/Bot-flow-new.png) 
+ 
+🎥 Walkthrough HopeBridge Get Volunteer Count (https://drive.google.com/file/d/1gbCDvcR4X1B4b9mEC4_Qs62TXVc6VQqD/view?usp=sharing)
+
+
 ---
 ✅ **Result:** A working conversational bot that reduces manual lookup tasks by surfacing donor, volunteer, and campaign insights in real time.
 
